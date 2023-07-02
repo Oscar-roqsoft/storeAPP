@@ -4,6 +4,11 @@ import { resolve }  from "path"
 
 export default defineNuxtConfig ({
   devtools: { enabled: true },
+
+  experimental: {
+    payloadExtraction: false
+  },
+
  
   ssr: true,
   alias:{
