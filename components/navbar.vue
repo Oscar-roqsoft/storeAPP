@@ -1,6 +1,6 @@
 <template>
         <nav class="fixed w-full mx-auto left-0 bottom-0 min-h-[100px] z-40 ">
-            <img src="../assets/img/Vector 1789.png" alt="" class="min-w-full fixed left-0 bottom-0 z-[-1]">
+            <img src="/img/Vector 1789.png" alt="" class="min-w-full fixed left-0 bottom-0 z-[-1]">
             <div class=" flex justify-between items-center max-w-[375px] p-2 mx-auto h-[100px]
                     text-2xl">
                 <nuxt-link to="home">

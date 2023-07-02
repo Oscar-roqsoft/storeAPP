@@ -64,7 +64,7 @@ const showMenu = ()=>{
                         <div class="flex justify-between ">
                             <div class="flex">
                                 <div class="h-[40px] w-[40px] flex justify-center items-center">
-                                    <img src="@/assets/checkout-img/image55.png" alt="">
+                                    <img src="/checkout-img/image 55.png" alt="">
                                 </div>
                                 <div class="flex flex-col justify-between px-2">
                                     <h3>DbL Card</h3>
@@ -116,7 +116,7 @@ const showMenu = ()=>{
 
 <style scoped>
 .map{
-    background-image: url("@/assets/favourite-img/rectangle 1066.png");
+    background-image: url("/favourite-img/rectangle 1066.png");
     background-size: cover;
 }
 </style>
