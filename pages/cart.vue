@@ -26,7 +26,7 @@
 
                            <div class="bg-white col-span-4 p-3 gap-6 rounded-xl grid grid-cols-3">
                               <div class="bg-gray-300 pt-2  rounded-xl ">
-                                <img class="w-full" src="../assets/favourite-img/nike-zoom.png" alt="">
+                                <img class="w-full" src="@/assets/favourite-img/nike-zoom.png" alt="">
                               </div>
                               <div class="flex flex-col justify-center col-span-2 ">
                                 <span class="text-lg">Nike Club Max</span>
@@ -40,7 +40,7 @@
 
                         <div class="bg-white col-span-4 p-3 gap-6 rounded-xl grid grid-cols-3">
                             <div class="bg-gray-300 pt-2  rounded-xl ">
-                            <img class="w-full" src="../assets/favourite-img/nike-23.png" alt="">
+                            <img class="w-full" src="@@/assets/favourite-img/nike-23.png" alt="">
                             </div>
                             <div class="flex flex-col justify-center col-span-2 ">
                             <span class="text-lg">Nike Club Max</span>
@@ -57,7 +57,7 @@
                    <div class="grid grid-cols-1 h-[104px] gap-5 flex-shrink-0 my-4">
                         <div class="bg-white  p-3 gap-6 rounded-xl grid grid-cols-4 ">
                             <div class="bg-gray-300 pt-2  rounded-xl">
-                                <img class="w-full" src="../assets/favourite-img/nike-23.png" alt="">
+                                <img class="w-full" src="@@/assets/favourite-img/nike-23.png" alt="">
                             </div>
                             <div class="flex flex-col justify-center col-span-3 ">
                                 <span class="text-lg">Nike Club Max</span>

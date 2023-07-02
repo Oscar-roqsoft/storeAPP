@@ -10,14 +10,14 @@
     <div class="bg-[#1483C2] ">
         <div class="w-full min-h-[880px] px-3 ">
              <div class="h-[463px]">
-                <img src="../assets/img/Group (1).png" alt="" class="relative top-[80px] left-5">
-                <img src="../assets/img/Misc_04.png" alt="" class="relative left-[18rem]">
-                <img src="../assets/img/Spring_prev_ui 1.png" alt="">
-                <img src="../assets/img/blur.png" alt="" class="relative left-8 bottom-4">
+                <img src="@/assets/img/Group (1).png" alt="" class="relative top-[80px] left-5">
+                <img src="@/assets/img/Misc_04.png" alt="" class="relative left-[18rem]">
+                <img src="@/assets/img/Spring_prev_ui 1.png" alt="">
+                <img src="@/assets/img/blur.png" alt="" class="relative left-8 bottom-4">
              </div>
             <div class="h-[230px] flex flex-col  justify-center
              place-items-center text-center text-white  ">
-                <img src="../assets/img/Vector (1).png" alt="" class="good">
+                <img src="@/assets/img/Vector (1).png" alt="" class="good">
                 <h1 class="text-4xl capitalize ">let's start journey <br> with nike</h1>
                 <p class="text-lg mt-5">Smart, Gorgeous & Fashionable <br> Collection Explore Now</p>
                 <div class="absolute top-[704px] transition-shadow" >

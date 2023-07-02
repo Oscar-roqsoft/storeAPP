@@ -15,7 +15,7 @@
 
             <div class="flex justify-center mt-[40px] mb-[24px]">
                 <div class="h-[80px] w-[80px] p-1 flex  bg-white rounded-full border-2 border-[#0D6EFD]">
-                    <img src="../assets/checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
+                    <img src="@/assets/checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
                 </div>
                 <nuxt-link to="EdithProfile" class="h-[19px] w-[19px] bg-[#0D6EFD] relative top-[60px] right-7 rounded-full
                 flex justify-center items-center">

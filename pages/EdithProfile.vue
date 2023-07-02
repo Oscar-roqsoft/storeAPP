@@ -15,7 +15,7 @@
             <section>
                 <div class="flex flex-col items-center justify-center mt-[40px] mb-[24px]">
                     <div class="h-[80px] w-[80px] p-1 flex  bg-white rounded-full border-2 border-[#0D6EFD]">
-                    <img src="../assets/checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
+                    <img src="@/assets/checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
                 </div>
                     <h1 class="capitalize text-[20px] mt-[8px] mb-1 leading-tight">oscar nnoje</h1>
                     <a href="#" class="text-xs text-[#0D6EFD]">Change Profile Picture</a>

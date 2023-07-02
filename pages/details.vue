@@ -11,8 +11,8 @@
                         <h1 class="text-xl">Sneaker Shop</h1>
                     </div>
                     <div class="" >
-                        <img src="../assets/home-img/Frame 31.png" >
-                    </div>
+                        <img src="@/assets/home-img/Frame 31.png" >
+                     </div>
                 </section>
 
                 <section class="mt-8">
@@ -26,9 +26,9 @@
 
                 <section class="relative top-[92px] ">
                     <div class="absolute top-[-271px]">
-                        <img src="../assets/favourite-img/Hero Image.png" alt="">
+                        <img src="@/assets/favourite-img/Hero Image.png" alt="">
                     </div>
-                    <img src="../assets/favourite-img/Ellipse 5.png" alt="">
+                    <img src="@/assets/favourite-img/Ellipse 5.png" alt="">
                     <div class=" flex justify-center items-center ">
                        <div class=" relative bottom-3 flex justify-between bg-gray-500 
                        text-white rounded-lg p-1 w-12">
@@ -39,19 +39,19 @@
                     <div class="grid grid-cols-5 my-8">
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center 
                         flex-shrink-0 rounded-xl">
-                            <img src="../assets/favourite-img/Hero Image.png" class="">
+                            <img src="@/assets/favourite-img/Hero Image.png" class="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="../assets/favourite-img/nike-ah8050110-air_max_270-1-e_prev_ui 1.png" alt="">
+                            <img src="@/assets/favourite-img/nike-23.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="../assets/favourite-img/nike-zoom-winflo-3-831561-001-mens-running-shoes-11550187236tiyyje6l87_prev_ui 2.png" alt="">
+                            <img src="@/assets/favourite-img/nike-zoom.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="../assets/favourite-img/PngItem_5550642 (2) 1.png" alt="">
+                            <img src="@/assets/favourite-img/PngItem_5550642 (2) 1.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="../assets/favourite-img/nike-ah8050110-air_max_270-1-e_prev_ui 1.png" alt="">
+                            <img src="@/assets/favourite-img/nike-23.png" alt="">
                         </div>
                     </div>
                 </section>
