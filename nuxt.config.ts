@@ -30,6 +30,7 @@ export default defineNuxtConfig ({
   },
 
   app: {
+    baseURL: '/storeAPP/',
     head: {
       script: [{
         src:'https://kit.fontawesome.com/0289b0344f.js',
