@@ -11,7 +11,6 @@ export default defineNuxtConfig ({
   },
   nitro: {
   
-      prerender: { crawlLinks: true, ignore: ['/dynamic'] },
 
     preset: 'node-server'
   },
