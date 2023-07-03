@@ -16,7 +16,7 @@ export default defineNuxtConfig ({
     preset: 'node-server'
   },
  
-  ssr: true,
+  ssr: false,
   alias:{
     "@": resolve(__dirname,"/")
     // assets: "/<rootDir>/assets"
