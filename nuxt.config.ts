@@ -1,5 +1,6 @@
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 import { resolve }  from "path"
 
 export default defineNuxtConfig ({
@@ -8,7 +9,12 @@ export default defineNuxtConfig ({
   experimental: {
     payloadExtraction: false
   },
+  nitro: {
+  
+      prerender: { crawlLinks: true, ignore: ['/dynamic'] },
 
+    preset: 'node-server'
+  },
  
   ssr: true,
   alias:{
