@@ -23,8 +23,8 @@
                         <h1 class="text-3xl">Explore</h1>
                     </div>
                     <div class="" >
-                        <img src="/home-img/Ellipse 886.png" class="absolute animate-ping top-[35px] right-[21px]">
-                        <img src="/home-img/Frame 31.png" >
+                        <img src="/home-img/Ellipse886.png" class="absolute animate-ping top-[35px] right-[21px]">
+                        <img src="/home-img/Frame31.png" >
                     </div>
                 </section>
 
@@ -59,7 +59,7 @@
                         <div class="card bg-white rounded-xl">
                             <heart-icon />
                             <div>
-                                <img src="/home-img/nike 1.png" alt=""> 
+                                <img src="/home-img/nike1.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Jordan</span>
@@ -75,7 +75,7 @@
                         <div class="card bg-white rounded-xl">
                             <heart-icon-red  />
                             <div>
-                                <img src="/home-img/nike 2.png" alt=""> 
+                                <img src="/home-img/nike2.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Air Jordan</span>

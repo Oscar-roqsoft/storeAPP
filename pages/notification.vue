@@ -19,7 +19,7 @@
 
                 <div class="grid grid-cols-4  px-[13px]  place-items-center min-h-[105px] bg-white rounded-xl">
                     <div class="bg-[#f7f7f9] w-[87px] h-[85px]  rounded-3xl flex justify-center items-center">
-                        <img src="/checkout-img/pngaaa 1.png" class="w-full">
+                        <img src="/checkout-img/pngaaa1.png" class="w-full">
                     </div>
                       <div class="col-span-2">
                            <div class="relative left-[160px] text-[#707B81]"><p><span>7</span> mins ago</p></div> 

@@ -22,9 +22,9 @@ const props = defineProps({
             <div class=" h-[440px]" >
                <div class="flex flex-col justify-center place-items-center">
                 <img src="/img/Misc_04.png" alt="" class="relative right-[34%] top-[31px] opacity-80">
-                <img src="/img/image 3.png" alt="" class="shoe" >
+                <img src="/img/image3.png" alt="" class="shoe" >
                 <img src="/img/blur.png" alt="" class="relative top-[160px] right-[13%]">
-                <img src="/img/Vector (1).png" alt="" class="good">
+                <img src="/img/Vector(1).png" alt="" class="good">
                 <img src="/img/Group.png" alt="" class="relative top-36 left-[38%] opacity-80">
                 <div class="absolute top-[634px]  transition-all" >
                         <div class="flex justify-center place-items-center gap-3 
@@ -34,7 +34,7 @@ const props = defineProps({
                             <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
                         </div>
                 </div>
-                <img src="/img/Group (1).png" alt="" class="relative top-[11rem] right-[34%] opacity-80">
+                <img src="/img/Group(1).png" alt="" class="relative top-[11rem] right-[34%] opacity-80">
                </div>
             </div>
             <nuxt-link to="next" class="mx-auto relative top-[50px]">

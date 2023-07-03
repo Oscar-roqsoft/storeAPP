@@ -48,7 +48,7 @@
         </section>
 
         <div class="absolute top-[97px] right-0">
-            <img src="/menu-img/Home 1.png" alt="">
+            <img src="/menu-img/Home1.png" alt="">
         </div>
     </div>
 </template>
