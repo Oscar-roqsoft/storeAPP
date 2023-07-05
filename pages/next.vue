@@ -29,7 +29,7 @@
                         </div>
                 </div>
             </div>
-            <nuxt-link to="onboard3" class="mx-auto relative top-[100px]">
+            <nuxt-link to="onboard3" class="mx-auto relative top-[90px]">
                 <button class="w-full inline-block text-[14px]
                 p-[14px] bg-white text-black  border 
                 rounded-xl font-[600] capitalize">next</button>

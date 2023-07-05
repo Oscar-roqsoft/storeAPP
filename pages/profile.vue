@@ -1,3 +1,10 @@
+<script setup>
+const show = ref(true)
+const showMenu = ()=>{
+    show.value = !show.value
+}
+</script>
+
 <template>
     <div class="min-h-[880px] w-full bg-[#f7f7f9] rounded-[20px] font-serif">
         <div class="min-w-[375px] mx-auto min-h-[812px] p-[20px]">
@@ -29,7 +36,14 @@
                  <p class="my-[16px]">Email Address</p>
                  <input type="text" placeholder="enter your name " class="p-[16px] w-full outline-none rounded-xl">
                  <p class="my-[16px]">Password</p>
-                 <input type="password" placeholder="* * * * * * " class="p-[16px] w-full  outline-none rounded-xl">
+                 <div v-if="show" class="flex relative p-icon animate__animated  animate__fadeIn">
+                    <input type="password" placeholder="* * * * * " class="p-[16px] w-full   outline-none rounded-xl">
+                    <a @click="showMenu"><hide-icon  class="absolute right-[23px] translate-y-[15px]  text-[26px]"/></a>
+                </div>
+                <div v-else class="flex relative p-icon animate__animated  animate__fadeIn ">
+                    <input type="text" placeholder="oscar " class="p-[16px]   w-full  outline-none rounded-xl">
+                    <a @click="showMenu"><show-icon class="absolute right-[23px] translate-y-[15px]  text-[26px]"/></a>
+                </div>
 
                  <div class="flex justify-end my-[16px]">
                     <span class="text-gray-500 text-sm">Recovery Password</span>

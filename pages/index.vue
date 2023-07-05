@@ -37,7 +37,7 @@ const props = defineProps({
                 <img src="/img/Group(1).png" alt="" class="relative top-[11rem] right-[34%] opacity-80">
                </div>
             </div>
-            <nuxt-link to="next" class="mx-auto relative top-[50px]">
+            <nuxt-link to="next" class="mx-auto relative top-[40px]">
                 <button class="w-full inline-block text-[14px] font-[600]
                 p-[7px] bg-white text-black  border 
                 rounded-xl  capitalize">get started</button>

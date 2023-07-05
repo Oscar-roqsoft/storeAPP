@@ -1,7 +1,16 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+   <Suspense>
+    <template #fallback>
+      <Loading/>
+    </template>
+      
+      
+      <template #default>
+        <div >
+          <NuxtPage />
+        </div>
+      </template>
+   </Suspense>
 </template>
 
 <style>

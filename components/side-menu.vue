@@ -1,5 +1,5 @@
 <template>
-    <div  class="w-full min-h-screen text-white bg-[#1483C2]  px-[36px]  pt-[78px] ">
+    <div  class="w-full min-h-screen text-white bg-[#1483C2]  px-[36px]  pt-[78px] z-50 ">
         <div class="">
           <div class="h-[80px] w-[80px] p-1 mb-[16px] flex justify-center items-center 
            bg-[#0D6EFD] rounded-full border-2 border-white">

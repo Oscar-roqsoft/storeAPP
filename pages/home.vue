@@ -7,19 +7,18 @@
 </script>
 <template>
    <div class="">
-        <div v-if="show" >
-              <side-menu v-if="show" @click="showMenu" class="fixed z-50  animate__animated  animate__slideInLeft" />
-        </div>
-        
-        
-        <div class="min-h-[880px] w-full bg-[#f7f7f9] rounded-[20px] font-serif">
+        <transition name="slide-fade">
+                <side-menu v-if="show"  @click="showMenu" class="fixed z-50 " />
+        </transition>
+
+        <div  class="min-h-[880px] w-full bg-[#f7f7f9] rounded-[20px] font-serif">
            <div class="min-w-[375px] mx-auto min-h-[812px] p-[20px]">
                <navbar />
                 <section class="mt-[10px] h-[44px] flex-shrink-0 
                 flex justify-between items-center">
                     <hamburger @click="showMenu" class="text-3xl font-bold" />
                     <div>
-                        <img src="/img/Highlight_05.png" class="absolute  top-[19px] left-[133px]">
+                        <img src="/img/Highlight_05.png" class="absolute  top-[19px] left-[30vw]">
                         <h1 class="text-3xl">Explore</h1>
                     </div>
                     <div class="" >
@@ -112,6 +111,7 @@
                 </section>
            </div>
         </div>
+      
    </div>
 </template>
 
@@ -143,5 +143,19 @@
     font-weight: 900;
     line-height: 36.717px;
     letter-spacing: -0.72px;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.6s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(-100%);
+  opacity: 0.8;
 }
 </style>
