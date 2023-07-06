@@ -29,7 +29,7 @@
 
                 <section class="my-8 flex justify-between "> 
                     <search-icon  class="absolute search"/>
-                    <input type="text" placeholder="looking for shoe" class="input rounded-xl shadow-lg">
+                    <input type="text" placeholder="looking for shoe" class="input outline-[#0D6EFD] rounded-xl shadow-lg">
                     <div class="bg-[#0D6EFD] w-[52px] text-white text-2xl
                          h-[52px] flex items-center justify-center rounded-full">
                         <slide-icon />
