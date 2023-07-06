@@ -17,7 +17,7 @@ export default defineNuxtConfig ({
 
   },
  
-  ssr: true,
+  ssr: false,
   alias:{
     "@": resolve(__dirname,"/")
     // assets: "/<rootDir>/assets"
