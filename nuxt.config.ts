@@ -10,12 +10,14 @@ export default defineNuxtConfig ({
     payloadExtraction: false
   },
   nitro: {
-  
-
+    prerender: {
+      crawlLinks: true
+    },
     preset: 'node-server'
+
   },
  
-  ssr: false,
+  ssr: true,
   alias:{
     "@": resolve(__dirname,"/")
     // assets: "/<rootDir>/assets"
