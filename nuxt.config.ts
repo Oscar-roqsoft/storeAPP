@@ -11,13 +11,13 @@ export default defineNuxtConfig ({
   experimental: {
     payloadExtraction: false
   },
-  // nitro: {
-  //   prerender: {
-  //     crawlLinks: true
-  //   },
-  //   preset: 'node-server'
+  nitro: {
+    prerender: {
+      crawlLinks: true
+    },
+    preset: 'node-server'
 
-  // },
+  },
  
   alias:{
     "@": resolve(__dirname,"/")
@@ -30,6 +30,7 @@ export default defineNuxtConfig ({
       autoprefixer: {},
     },
   },
+  
 
   app: {
     baseURL: '/storeAPP/',

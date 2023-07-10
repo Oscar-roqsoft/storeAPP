@@ -8,7 +8,7 @@
 
 <template>
     <div class="bg-[#1483C2] ">
-        <div class="w-full min-h-[880px] px-3 ">
+        <div class="w-screen min-h-[880px] px-3 ">
              <div class="h-[463px]">
                 <img src="/img/Group(1).png" alt="" class="relative top-[80px] left-5">
                 <img src="/img/Misc_04.png" alt="" class="relative left-[18rem]">

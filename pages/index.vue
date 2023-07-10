@@ -11,7 +11,7 @@ const props = defineProps({
     <div class="bg-[#1483C2] min-h-[880px] main overflow-x-hidden font-[Raleway] ">
 
        
-       <div  class="w-full px-[15px] mx-auto h-screen transition-all">
+       <div  class="w-screen px-[15px] mx-auto h-screen transition-all">
             <div class="flex flex-col justify-center text-center place-items-center h-[297px]">
                 <img src="/img/Highlight_05.png" alt="" class="relative top-[15px] left-[-127px]">
                 <h4 class="font-[900] leading-normal text-[30px]">

@@ -6,7 +6,7 @@ const showMenu = ()=>{
 </script>
 
 <template>
-    <div class="w-full min-h-[880px] bg-white px-4  mt-[33px] font-[Raleway]">
+    <div class="w-screen min-h-[880px] bg-white px-4  mt-[33px] font-[Raleway]">
         <nuxt-link to="onboard3" class="w-[44px]">
             <arrow class="text-3xl bg-slate-100 p-[14px]  h-[44px] w-[44px] rounded-full"/>
         </nuxt-link>
