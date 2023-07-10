@@ -3,8 +3,8 @@
         <div class="w-full h-screen px-3">
              <div class="h-[463px] pt-3">
                 <img src="/img/Misc_04.png" alt="" class="relative top-[90px] left-8">
-                <img src="/img/AireJordanNike.png" alt="">
-                <img src="/img/Vectorcircle.png" alt="" class="absolute bottom-[476px] left-8">
+                <img src="/img/AireJordanNike.png" alt="" class="absolute top-[0px]">
+                <img src="/img/Vectorcircle.png" alt="" class="absolute top-[110px] left-8">
              </div>
             <div class="h-[230px] flex flex-col  justify-center
              place-items-center text-center text-white  ">

@@ -6,18 +6,19 @@ import { resolve }  from "path"
 export default defineNuxtConfig ({
   devtools: { enabled: true },
 
+  
+
   experimental: {
     payloadExtraction: false
   },
-  nitro: {
-    prerender: {
-      crawlLinks: true
-    },
-    preset: 'node-server'
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true
+  //   },
+  //   preset: 'node-server'
 
-  },
+  // },
  
-  ssr: false,
   alias:{
     "@": resolve(__dirname,"/")
     // assets: "/<rootDir>/assets"

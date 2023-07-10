@@ -29,8 +29,8 @@ const props = defineProps({
                 <div class="absolute top-[634px]  transition-all" >
                         <div class="flex justify-center place-items-center gap-3 
                         animate__animated animate__fadeIn">
-                            <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
                             <span class="w-10 h-1 bg-white rounded shadow-lg"></span>
+                            <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
                             <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
                         </div>
                 </div>

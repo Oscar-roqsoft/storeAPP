@@ -1,9 +1,14 @@
 <script setup>
 //   import 'animate.css'
   const show = ref(false)
+  const isIcon = ref(true)
   const showMenu = ()=>{
     show.value = !show.value
   }
+  const showIcon =()=>{
+    isIcon.value = !isIcon.value
+  }
+ 
 </script>
 <template>
    <div class="">
@@ -56,7 +61,8 @@
                     </div>
                     <div class="grid grid-cols-2 gap-3 my-5 ">
                         <div class="card bg-white rounded-xl">
-                            <heart-icon />
+                            <heart-icon @click="showIcon"  v-if="isIcon"/>
+                            <heart-icon-red @click="showIcon"  v-else  />
                             <div>
                                 <img src="/home-img/nike1.png" alt=""> 
                             </div>
@@ -72,7 +78,9 @@
                         </div>
 
                         <div class="card bg-white rounded-xl">
-                            <heart-icon-red  />
+                            <heart-icon @click="showIcon"  v-if="isIcon"/>
+                            <heart-icon-red @click="showIcon"  v-else  />
+                            
                             <div>
                                 <img src="/home-img/nike2.png" alt=""> 
                             </div>

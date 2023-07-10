@@ -115,8 +115,8 @@ const showMenu = ()=>{
 </template>
 
 <style scoped>
-/* .map{
-    background-image: url(favourite-img/rectangle1066.png);
+.map{
+    background-image: url('/public/favourite-img/rectangle1066.png');
     background-size: cover;
-} */
+}
 </style>

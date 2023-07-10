@@ -1,7 +1,7 @@
 <template>
    <Suspense>
     <template #fallback>
-      <Loading/>
+      <Loading />
     </template>
       
       
