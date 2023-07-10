@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#1483C2] ">
-        <div class="w-screen min-h-[850px] px-3">
+        <div class="w-screen min-h-[880px] px-3">
              <div class="h-[463px] pt-3">
                 <img src="/img/Misc_04.png" alt="" class="relative top-[90px] left-8">
                 <img src="/img/AireJordanNike.png" alt="" class="absolute top-[0px]">
