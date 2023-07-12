@@ -16,23 +16,23 @@
                 <side-menu v-if="show"  @click="showMenu" class="fixed z-50 " />
         </transition>
 
-        <div  class="min-h-[880px] w-screen bg-[#f7f7f9] rounded-[20px] font-serif">
-           <div class="min-w-[375px] mx-auto min-h-[812px] p-[20px]">
+        <div  class="min-h-screen mb-20 w-screen bg-[#f7f7f9]  font-san">
+           <div class="w-full mx-auto">
                <navbar />
-                <section class="mt-[10px] h-[44px] flex-shrink-0 
-                flex justify-between items-center">
-                    <hamburger @click="showMenu" class="text-3xl font-bold" />
+                <section class="flex-shrink-0 
+                flex justify-between items-center px-[20px] pt-[16px]">
+                    <hamburger @click="showMenu" class="text-xl font-bold" />
                     <div>
-                        <img src="/img/Highlight_05.png" class="absolute  top-[19px] left-[30vw]">
-                        <h1 class="text-3xl">Explore</h1>
+                        <img src="/img/Highlight_05.png" class="absolute  top-[10px] left-[30vw]">
+                        <h1 class="text-xl">Explore</h1>
                     </div>
                     <div class="" >
-                        <img src="/home-img/Ellipse886.png" class="absolute animate-ping top-[35px] right-[21px]">
+                        <img src="/home-img/Ellipse886.png" class="absolute animate-ping top-[24px] right-[21px]">
                         <img src="/home-img/Frame31.png" >
                     </div>
                 </section>
 
-                <section class="my-8 flex justify-between "> 
+                <section class="my-4 flex justify-between px-4 "> 
                     <search-icon  class="absolute search"/>
                     <input type="text" placeholder="looking for shoe" class="input outline-[#0D6EFD] rounded-xl shadow-lg">
                     <div class="bg-[#0D6EFD] w-[52px] text-white text-2xl
@@ -41,35 +41,35 @@
                     </div>
                 </section>
 
-                <section class="mb-2">
-                    <p>Select Category</p>
-                    <div class="py-6 overflow-x-scroll grid grid-flow-col gap-3 capitalize line">
-                        <div class="min-w-[108px] min-h-[40px] text-lg inline-flex shadow-sm
+                <section class="mb-2 pl-4">
+                    <p class="text-sm">Select Category</p>
+                    <div class="py-3 overflow-x-scroll grid grid-flow-col gap-3 text-sm  capitalize line">
+                        <div class="min-w-[108px] min-h-[30px] inline-flex shadow-sm
                         place-items-center justify-center bg-white text-black rounded-lg">all shoe</div>
-                        <div class="min-w-[108px] min-h-[40px] text-lg inline-flex shadow-sm
+                        <div class="min-w-[108px] min-h-[30px]  inline-flex shadow-sm
                         place-items-center justify-center bg-[#0D6EFD] text-white rounded-lg">outdoor</div>
-                        <div class="min-w-[108px] min-h-[40px] text-lg inline-flex shadow-sm
+                        <div class="min-w-[108px] min-h-[30px]  inline-flex shadow-sm
                         place-items-center justify-center bg-white text-black rounded-lg">tennis</div>
                        
                     </div>
                 </section>
 
-                <section>
+                <section class="px-4">
                     <div class="flex justify-between font-[Raleway]">
-                        <span class="text-xl capitalize">popular Shoes</span>
-                        <nuxt-link to="details" class="text-lg text-[#0D6EFD]">see all</nuxt-link>
+                        <span class="text-md capitalize">popular Shoes</span>
+                        <nuxt-link to="details" class="text-sm text-[#0D6EFD]">see all</nuxt-link>
                     </div>
-                    <div class="grid grid-cols-2 gap-3 my-5 ">
+                    <div class="grid grid-cols-2 gap-3 my-4 ">
                         <div class="card bg-white rounded-xl">
                             <heart-icon @click="showIcon"  v-if="isIcon"/>
                             <heart-icon-red @click="showIcon"  v-else  />
                             <div>
                                 <img src="/home-img/nike1.png" alt=""> 
                             </div>
-                            <p class=" text-[#0D6EFD]">Best Seller</p>
-                            <span>Nike Jordan</span>
+                            <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
+                            <span class="text-sm">Nike Jordan</span>
                             <div class="flex justify-between items-center">
-                                <span>$302.00</span>
+                                <span class="text-sm">$302.00</span>
                                 <div class="bg-[#0D6EFD] w-[34px] text-white text-xl flex-shrink-0
                                     h-[35.5px] flex items-center justify-center rounded-tl-3xl rounded-br-3xl">
                                     <plus-icon />
@@ -84,10 +84,10 @@
                             <div>
                                 <img src="/home-img/nike2.png" alt=""> 
                             </div>
-                            <p class=" text-[#0D6EFD]">Best Seller</p>
-                            <span>Nike Air Jordan</span>
+                            <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
+                            <span class="text-sm">Nike Air Jordan</span>
                             <div class="flex justify-between items-center">
-                                <span>$378.00</span>
+                                <span class="text-sm">$378.00</span>
                                 <div class="bg-[#0D6EFD] w-[34px] text-white text-xl flex-shrink-0
                                     h-[35.5px] flex items-center justify-center rounded-tl-3xl rounded-br-3xl">
                                     <plus-icon />
@@ -97,15 +97,15 @@
                     </div>
                 </section>
 
-                <section class="mt-8 ">
-                    <div class="flex justify-between mt-2 mb-5">
-                        <span>New Arrivals</span>
-                        <nuxt-link to="details" class="text-lg text-[#0D6EFD]">see all</nuxt-link>
+                <section class="mt-4  px-4">
+                    <div class="flex justify-between mt-2 mb-4">
+                        <span class="text-sm">New Arrivals</span>
+                        <nuxt-link to="details" class="text-sm text-[#0D6EFD]">see all</nuxt-link>
                     </div>
                     <div class="min-h-[107px] grid grid-cols-2 bg-white rounded-xl">
                         <div class="flex flex-col justify-center items-center">
                              <div class="m-2">
-                                <p>summer sales</p>
+                                <p class="text-xs">summer sales</p>
                                 <span class="text-[#674DC5] summer">15% OFF</span>
                              </div>
                         </div>
@@ -128,7 +128,7 @@
  .input{
     display: flex;
     width: 269px;
-    padding: 14px 32px 14px 38px;
+    padding: 10px 0px 10px 32px;
     align-items: center;
     gap: 12px;
 
@@ -141,12 +141,12 @@
  }
  .card{
     display: flex;
-    padding: 12px 0px 0px 12px;
+    padding: 10px 0px 0px 10px;
     flex-direction: column;
 }
 
 .summer{
-    font-size: 36px;
+    font-size: 16px;
     font-family: Futura;
     font-weight: 900;
     line-height: 36.717px;
