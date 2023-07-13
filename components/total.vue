@@ -1,6 +1,6 @@
 <template>
-        <section class="fixed h-[258px] bottom-0 left-0 bg-white w-full py-4">
-                    <div class="w-[375px] mx-auto">
+        <section class="fixed h-[220px] bottom-0 left-0 bg-white w-full py-4">
+                    <div class=" px-[20px] text-sm">
                         <div class="flex justify-between py-3">
                             <span class="text-gray-500">Subtotal</span>
                             <span>$753.95</span>
@@ -22,8 +22,8 @@
 
                         <nuxt-link to="checkout" class=" flex flex-col justify-center w-full">
                             <button class="w-full inline-block  text-[14px]
-                            p-3 bg-[#0D6EFD] text-white border 
-                            rounded-xl font-medium capitalize">Checkout</button>
+                            p-2 bg-[#0D6EFD] text-white border 
+                            rounded-lg font-medium capitalize">Checkout</button>
                         </nuxt-link>
                      </div>
                 </section>
