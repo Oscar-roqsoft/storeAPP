@@ -4,20 +4,20 @@
 import { resolve }  from "path"
 
 export default defineNuxtConfig ({
-  // devtools: { enabled: true },
+  devtools: { enabled: true },
 
   
 
   experimental: {
     payloadExtraction: false
   },
-  nitro: {
-    prerender: {
-      crawlLinks: true
-    },
-    preset: 'node-server'
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true
+  //   },
+  //   preset: 'node-server'
 
-  },
+  // },
  
   alias:{
     "@": resolve(__dirname,"/")
