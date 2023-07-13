@@ -1,3 +1,5 @@
+
+
 <template>
         <div class="min-h-screen w-screen bg-[#f7f7f9]  font-san">
             <div  class="mx-auto">
@@ -81,8 +83,5 @@
                         </div>
                 </section>
             </div>
-
-
-           
         </div>
 </template>
