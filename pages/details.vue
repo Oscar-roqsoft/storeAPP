@@ -2,15 +2,15 @@
         <div class="min-h-screen w-screen bg-[#f7f7f9]  font-san">
             <div  class="mx-auto">
                 <section class="px-[20px] pt-6 h-[44px] flex-shrink-0 
-                   flex justify-between items-center">
+                flex justify-between items-center">
                     <nuxt-link to="home">
                         <arrow class="text-xl bg-slate-200 p-2 border rounded-full w-8 h-8"/>
                     </nuxt-link>
                     <div>
                         <h1 class="text-lg">Sneaker Shop</h1>
                     </div>
-                    <div>
-                        <img src="home-img/Frame31.png" >
+                    <div class="text-xl" >
+                        <img src="/home-img/Frame31.png" >
                     </div>
                 </section>
 
@@ -25,9 +25,9 @@
 
                 <section class="relative top-[92px] px-[20px]">
                     <div class="absolute top-[-271px]">
-                        <img src="favourite-img/HeroImage.png" alt="">
+                        <img src="/favourite-img/HeroImage.png" alt="">
                     </div>
-                    <img src="favourite-img/Ellipse5.png" >
+                    <img src="/favourite-img/Ellipse5.png" alt="">
                     <div class=" flex justify-center items-center ">
                        <div class=" relative bottom-3 flex justify-between bg-gray-500 
                        text-white rounded-lg p-1 w-12">
@@ -38,19 +38,19 @@
                     <div class="grid grid-cols-5 my-8">
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center 
                         flex-shrink-0 rounded-xl">
-                            <img src="favourite-img/HeroImage.png" class="">
+                            <img src="/favourite-img/HeroImage.png" class="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="favourite-img/nike-23.png" alt="">
+                            <img src="/favourite-img/nike-23.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="favourite-img/nike-zoom.png" alt="">
+                            <img src="/favourite-img/nike-zoom.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="favourite-img/PngItem_5550642(2)1.png" alt="">
+                            <img src="/favourite-img/PngItem_5550642(2)1.png" alt="">
                         </div>
                         <div class="h-[56px] w-[56px] bg-white flex items-center justify-center rounded-xl">
-                            <img src="favourite-img/nike-23.png" alt="">
+                            <img src="/favourite-img/nike-23.png" alt="">
                         </div>
                     </div>
                 </section>
@@ -81,6 +81,8 @@
                         </div>
                 </section>
             </div>
+
+
            
         </div>
 </template>

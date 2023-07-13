@@ -23,12 +23,12 @@
                 flex justify-between items-center px-[20px] pt-[16px]">
                     <hamburger @click="showMenu" class="text-xl font-bold" />
                     <div>
-                        <img src="img/Highlight_05.png" class="absolute  top-[10px] left-[30vw]">
+                        <img src="/img/Highlight_05.png" class="absolute  top-[10px] left-[30vw]">
                         <h1 class="text-xl">Explore</h1>
                     </div>
                     <div class="" >
-                        <img src="home-img/Ellipse886.png" class="absolute animate-ping top-[24px] right-[21px]">
-                        <img src="home-img/Frame31.png" >
+                        <img src="/home-img/Ellipse886.png" class="absolute animate-ping top-[24px] right-[21px]">
+                        <img src="/home-img/Frame31.png" >
                     </div>
                 </section>
 
@@ -64,7 +64,7 @@
                             <heart-icon @click="showIcon"  v-if="isIcon"/>
                             <heart-icon-red @click="showIcon"  v-else  />
                             <div>
-                                <img src="home-img/nike1.png" alt=""> 
+                                <img src="/home-img/nike1.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
                             <span class="text-sm">Nike Jordan</span>
@@ -82,7 +82,7 @@
                             <heart-icon-red @click="showIcon"  v-else  />
                             
                             <div>
-                                <img src="home-img/nike2.png" alt=""> 
+                                <img src="/home-img/nike2.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
                             <span class="text-sm">Nike Air Jordan</span>
@@ -111,9 +111,9 @@
                         </div>
 
                         <div class="flex place-items-center justify-center">
-                            <img src="home-img/Misc_06.png" class="relative top-[-17px] left-[45px]">
-                            <img src="home-img/Nike-Zoom.png"  class="relative top-[-24px] left-[29px]" >
-                            <img src="home-img/Ellipse3.png"  class="relative top-[28px] right-[77px]">
+                            <img src="/home-img/Misc_06.png" class="relative top-[-17px] left-[45px]">
+                            <img src="/home-img/Nike-Zoom.png"  class="relative top-[-24px] left-[29px]" >
+                            <img src="/home-img/Ellipse3.png"  class="relative top-[28px] right-[77px]">
                         </div>
                     </div>
                 </section>

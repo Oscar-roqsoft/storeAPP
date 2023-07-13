@@ -64,7 +64,7 @@ const showMenu = ()=>{
                         <div class="flex justify-between ">
                             <div class="flex">
                                 <div class="h-[40px] w-[40px] flex justify-center items-center">
-                                    <img src="checkout-img/image55.png" alt="">
+                                    <img src="/checkout-img/image55.png" alt="">
                                 </div>
                                 <div class="flex flex-col justify-between px-2">
                                     <h3>DbL Card</h3>

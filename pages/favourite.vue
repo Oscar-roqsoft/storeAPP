@@ -26,7 +26,7 @@
                         <div class="p-3 bg-white rounded-xl">
                             <heart-icon-red />
                             <div>
-                                <img src="home-img/nike1.png" alt=""> 
+                                <img src="/home-img/nike1.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Jordan</span>
@@ -42,7 +42,7 @@
                         <div class="p-3 bg-white rounded-xl">
                             <heart-icon-red  />
                             <div>
-                                <img src="home-img/nike2.png" alt=""> 
+                                <img src="/home-img/nike2.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Air Jordan</span>
@@ -58,7 +58,7 @@
                         <div class="p-3 bg-white rounded-xl">
                             <heart-icon-red  />
                             <div>
-                                <img src="home-img/nike2.png" alt=""> 
+                                <img src="/home-img/nike2.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Air Jordan</span>
@@ -74,7 +74,7 @@
                         <div class="p-3 bg-white rounded-xl">
                             <heart-icon-red  />
                             <div>
-                                <img src="home-img/nike2.png" alt=""> 
+                                <img src="/home-img/nike2.png" alt=""> 
                             </div>
                             <p class=" text-[#0D6EFD]">Best Seller</p>
                             <span>Nike Air Jordan</span>

@@ -4,7 +4,7 @@
         <div class=" bg-white flex flex-col justify-center place-items-center
          min-w-[335px] rounded-lg text-center shadow-xl px-[76px] mx-[20px] py-[40px]">
             <div class="bg-gray-300 p-[24px] rounded-full">
-                <img src="checkout-img/image50.png" alt="">
+                <img src="/checkout-img/image50.png" alt="">
             </div>
             <h2 class="py-[30px] text-xl text-gray-500">Your Payment Is <br> Successful</h2>
            <nuxt-link to="cart">

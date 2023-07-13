@@ -8,7 +8,7 @@
         <div class="px-[20px] py-8">
           <div class="h-[80px] w-[80px] p-1 mb-[16px] flex justify-center items-center 
            bg-[#0D6EFD] rounded-full border-2 border-white">
-                    <img src="checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
+                    <img src="/checkout-img/my-photo.jpg" alt="" class="w-full rounded-full">
                 </div>
             <h2 class="text-[20px]">Nnoje Udochukwu</h2>
         </div>
@@ -56,7 +56,7 @@
         </section>
 
         <div class="absolute top-[45px] right-0">
-            <img src="menu-img/Home1.png" alt="">
+            <img src="/menu-img/Home1.png" alt="">
         </div>
     </div>
 </template>
