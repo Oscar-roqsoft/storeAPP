@@ -15,11 +15,11 @@
             <div class=" h-[54%]" >
                <div class="flex flex-col justify-center place-items-center">
                 <img src="/img/Misc_04.png" alt="" class="fixed  animate__animated animate__swing animate__repeat-3	3 left-[50px] top-[29%] opacity-80">
-                <img src="/img/image3.png" alt="" class="fixed  top-[1vh] right-0 z-20 opacity-90"  >
+                <img src="/img/image3.png" alt="" class="fixed  top-0 right-0 z-20 opacity-90"  >
                 <img src="/img/blur.png" alt="" class="fixed top-[427px] right-[111px]">
-                <img src="/img/Vector(1).png" alt="" class="good top-[45vh]">
-                <img src="/img/Group.png" alt="" class="relative top-[27vh] left-[38%] opacity-50">
-                <div class="fixed top-[78%]  transition-all" >
+                <img src="/img/Vector(1).png" alt="" class="good top-80">
+                <img src="/img/Group.png" alt="" class="relative top-40 left-[38%] opacity-50">
+                <div class="fixed top-[540px]  transition-all" >
                         <div class="flex justify-center place-items-center gap-3 
                         animate__animated animate__fadeIn">
                             <span class="w-10 h-1 bg-white rounded shadow-lg"></span>
@@ -27,13 +27,13 @@
                             <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
                         </div>
                 </div>
-                <img src="/img/Group(1).png" alt="" class="relative top-[25vh] right-[40%] opacity-50">
+                <img src="/img/Group(1).png" alt="" class="relative top-48 right-[40%] opacity-50">
                </div>
             </div>
             <nuxt-link to="next" class="relative top-[30px]">
                 <button class="w-full inline-block text-[14px] font-[700]
                 p-[1px] bg-white text-black  border 
-                rounded-xl  capitalize">get started</button>
+                rounded-lg  capitalize">get started</button>
             </nuxt-link>
        </div>
     </div>
