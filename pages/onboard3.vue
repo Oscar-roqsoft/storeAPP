@@ -9,7 +9,7 @@
             <div class="h-[30vh] mt-[5rem] flex flex-col  justify-center
              place-items-center text-center text-white  ">
                 <img src="/img/Vector(1).png" alt="" class="good fixed top-[50vh]">
-                <h1 class="text-xl capitalize font-semibold ">You Have the <br> Power To</h1>
+                <h1 class="text-3xl capitalize font-semibold ">You Have the <br> Power To</h1>
                 <p class="text-sm mt-3">There Are Many Beautiful And Attractive <br> Plants To Your Room</p>
                 <div class="fixed top-[82vh] slide-left  transition-all" >
                         <div class="flex justify-center place-items-center gap-3">
