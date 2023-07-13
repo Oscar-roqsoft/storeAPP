@@ -16,11 +16,11 @@
                 <img src="/img/blur.png" alt="" class="fixed left-11 top-[340px] z-50">
              </div>
 
-            <div class="h-[35vh] flex flex-col  mt-[6rem]
+            <div class="h-[32vh] flex flex-col  mt-[7rem]
               text-center text-white  px-3 ">
                 <img src="/img/Vector(1).png" alt="" class="w-full left-0 fixed top-[43vh]">
-                <h1 class="text-4xl capitalize ">let's start journey <br> with nike</h1>
-                <p class="text-lg mt-5">Smart, Gorgeous & Fashionable <br> Collection Explore Now</p>
+                <h1 class="text-xl capitalize font-semibold ">let's start journey <br> with nike</h1>
+                <p class="text-sm mt-2">Smart, Gorgeous & Fashionable <br> Collection Explore Now</p>
                 <div class="fixed top-[80%] transition-shadow  w-full" >
                         <div class="flex justify-center place-items-center gap-3
                         animate__animated animate__fadeIn">
@@ -30,7 +30,7 @@
                         </div>
                 </div>
             </div>
-            <nuxt-link to="onboard3" class="mx-auto relative px-3   flex justify-center items-center">
+            <nuxt-link to="onboard3" class="mx-auto relative px-3  flex justify-center items-center">
                 <button class="w-full inline-block text-[14px]
                 p-[10px] bg-white text-black  border 
                 rounded-md font-[600] capitalize">next</button>
