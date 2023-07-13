@@ -1,14 +1,7 @@
-<script setup>
-const props = defineProps({
-    loading:{
-        type: Boolean,
-        required: true
-    }
-})
-</script>
+
 <template>
     
-    <div class="bg-[#1483C2] bg h-[screen] w-screen main overflow-x-hidden font-san  ">
+    <div class="bg-[#1483C2] bg h-screen w-screen main overflow-x-hidden font-san  ">
 
        
        <div  class="w-full px-[15px] m-auto h-screen transition-all">
@@ -37,7 +30,7 @@ const props = defineProps({
                 <img src="/img/Group(1).png" alt="" class="relative top-[25vh] right-[40%] opacity-50">
                </div>
             </div>
-            <nuxt-link to="next" class="mx-auto relative top-[40px]">
+            <nuxt-link to="next" class="relative top-[30px]">
                 <button class="w-full inline-block text-[14px] font-[700]
                 p-[1px] bg-white text-black  border 
                 rounded-xl  capitalize">get started</button>
