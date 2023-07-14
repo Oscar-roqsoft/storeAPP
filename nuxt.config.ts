@@ -6,11 +6,19 @@
 export default defineNuxtConfig ({
   // devtools: { enabled: true },
 
-  
+
 
   experimental: {
     payloadExtraction: false
   },
+  modules: [
+    // Next Image module https://image.nuxtjs.org/components/nuxt-img
+    ['@nuxt/image', {
+        provider: 'static',
+        dir: "assets/images",
+    }],
+],
+ssr: true,
   // nitro: {
   //   prerender: {
   //     crawlLinks: true
