@@ -2,13 +2,13 @@
     <div class="bg-[#1483C2] font-san w-screen h-screen ">
         <div class="w-full mx-auto">
              <div class="h-[40vh] ">
-                <img src="/img/Misc_04.png" alt="" class="relative top-[20px] left-8">
-                <img src="/img/AireJordanNike.png" alt="" class="absolute top-[0px]">
-                <img src="/img/Vectorcircle.png" alt="" class="absolute top-[110px] left-8 z-30">
+                <img src="/public/img/Misc_04.png" alt="" class="relative top-[20px] left-8">
+                <img src="/public/img/AireJordanNike.png" alt="" class="absolute top-[0px]">
+                <img src="/public/img/Vectorcircle.png" alt="" class="absolute top-[110px] left-8 z-30">
              </div>
             <div class="h-[30vh] mt-[4rem] flex flex-col  justify-center
              place-items-center text-center text-white  ">
-                <img src="/img/Vector(1).png" alt="" class="good fixed top-84">
+                <img src="/public/img/Vector(1).png" alt="" class="good fixed top-84">
                 <h1 class="text-3xl capitalize font-semibold ">You Have the <br> Power To</h1>
                 <p class="text-sm mt-3">There Are Many Beautiful And Attractive <br> Plants To Your Room</p>
                 <div class="relative top-[40px] slide-left  transition-all" >

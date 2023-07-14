@@ -19,7 +19,7 @@
 
                 <div class="grid grid-cols-4  p-[11px]  place-items-center  rounded-xl">
                     <div class=" bg-white w-[87px] h-[85px]  rounded-3xl flex justify-center items-center">
-                        <img src="/checkout-img/pngaaa1.png" class="w-full">
+                        <img src="/public/checkout-img/pngaaa1.png" class="w-full">
                     </div>
                       <div class="col-span-2">
                            <div class="fixed right-7 -translate-y-2 text-[#707B81]"><p><span>7</span> mins ago</p></div> 
@@ -34,7 +34,7 @@
 
                 <div class="grid grid-cols-4 p-[11px] my-2  place-items-center min-h-[105px] rounded-xl">
                     <div class="bg-white w-[87px] h-[85px]  rounded-3xl flex justify-center items-center">
-                        <img src="/checkout-img/epic-nike.png" class="w-full">
+                        <img src="/public/checkout-img/epic-nike.png" class="w-full">
                     </div>
                       <div class="col-span-2">
                            <div class=" fixed right-7 -translate-y-2 text-[#707B81]"><p><span>39</span> mins ago</p></div> 
@@ -51,7 +51,7 @@
 
                 <div class="grid grid-cols-4 py-[16px]  px-[13px]  place-items-center min-h-[105px] rounded-xl">
                     <div class="bg-white w-[87px] h-[85px]  rounded-3xl flex justify-center items-center">
-                        <img src="/checkout-img/cipo-nike.png" class="w-full">
+                        <img src="/public/checkout-img/cipo-nike.png" class="w-full">
                     </div>
                       <div class="col-span-2">
                            <div class="fixed right-7 -translate-y-2 text-[#707B81]"><p><span>45</span> mins ago</p></div> 
@@ -66,7 +66,7 @@
 
                 <div class="grid grid-cols-4 py-[16px]  px-[13px]  place-items-center min-h-[105px] rounded-xl">
                     <div class="bg-white w-[87px] h-[85px]  rounded-3xl flex justify-center items-center">
-                        <img src="/checkout-img/cipo-nike.png" class="w-full">
+                        <img src="/public/checkout-img/cipo-nike.png" class="w-full">
                     </div>
                       <div class="col-span-2">
                            <div class=" fixed right-7 -translate-y-2 text-[#707B81]"><p><span>55</span> mins ago</p></div> 

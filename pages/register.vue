@@ -45,7 +45,7 @@ const showMenu = ()=>{
             </nuxt-link>
             <a href="https://www.google.com" target="_blank" class="flex animate__animated animate__fadeIn
             justify-center items-center my-3 bg-slate-100 p-[10px] rounded-xl">
-                <img src="/img/google.png" alt="">
+                <img src="/public/img/google.png" alt="">
                 <span class="ps-2 text-[10px] ">sign up with google</span>
             </a>
         </div>
