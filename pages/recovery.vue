@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-screen bg-white mt-[10px]">
+    <div class="w-full h-screen bg-white mt-[10px] font-sans">
         <nuxt-link to="sign-in" class="w-[44px]">
             <arrow class="text-3xl bg-slate-100 p-[14px] ml-4  h-[44px] w-[44px] rounded-full"/>
         </nuxt-link>

@@ -1,6 +1,6 @@
 <template>
     <div class="bg-black">
-        <div class="min-h-screen w-screen bg-[#f7f7f9] font-san">
+        <div class="min-h-screen w-screen bg-[#f7f7f9] font-sans">
             <div class="mx-auto ">
                  <navbar />
                 <section class=" h-[44px] flex-shrink-0 

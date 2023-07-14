@@ -16,7 +16,7 @@
                 <side-menu v-if="show"  @click="showMenu" class="fixed z-50 " />
         </transition>
 
-        <div  class="min-h-screen pb-40 w-screen bg-[#f7f7f9]  font-san">
+        <div  class="min-h-screen pb-40 w-screen bg-[#f7f7f9] font-sans">
            <div class="w-full mx-auto">
                <navbar />
                 <section class="flex-shrink-0 

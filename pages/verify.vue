@@ -5,7 +5,7 @@
   }
 </script> -->
 <template>
-    <div  class="w-screen h-screen bg-white ">
+    <div  class="w-screen h-screen bg-white font-sans">
         <nuxt-link to="recovery" class=" ">
             <arrow class="text-3xl bg-slate-100 p-[14px] ml-5 mt-6   h-[44px] w-[44px] rounded-full"/>
         </nuxt-link>

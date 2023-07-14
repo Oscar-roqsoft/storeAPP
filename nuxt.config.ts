@@ -1,7 +1,7 @@
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { resolve }  from "path"
+// import { resolve }  from "path"
 
 export default defineNuxtConfig ({
   // devtools: { enabled: true },
@@ -19,10 +19,10 @@ export default defineNuxtConfig ({
 
   // },
  
-  alias:{
-    "@": resolve(__dirname,"/")
-    // assets: "/<rootDir>/assets"
-   }, 
+  // alias:{
+  //   "@": resolve(__dirname,"/")
+  //   // assets: "/<rootDir>/assets"
+  //  }, 
   css: ['~/assets/main.css'],
   postcss: {
     plugins: {
