@@ -30,7 +30,7 @@
                         </div>
                 </div>
             </div>
-            <nuxt-link to="onboard3" class="mx-auto relative px-3  flex justify-center items-center">
+            <nuxt-link to="onboard3" class="mx-auto fixed px-3 w-full  flex justify-center items-center">
                 <button class="w-full inline-block text-[14px]
                 p-[10px] bg-white text-black  border 
                 rounded-lg font-[600] capitalize">next</button>

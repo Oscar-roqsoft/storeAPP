@@ -19,7 +19,7 @@
                         </div>
                 </div>
             </div>
-            <nuxt-link to="sign-in" class="absolute left-0 bottom-5 w-full px-3 mx-auto">
+            <nuxt-link to="sign-in" class="fixed left-0 bottom-5 w-full px-3 mx-auto">
                 <button class="w-full inline-block text-[14px]
                 p-[10px] bg-white text-black  border 
                 rounded-xl font-[600] capitalize">next</button>
