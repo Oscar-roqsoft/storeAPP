@@ -6,7 +6,7 @@
                 <img src="/img/AireJordanNike.png" alt="" class="absolute top-[0px]">
                 <img src="/img/Vectorcircle.png" alt="" class="absolute top-[110px] left-8 z-30">
              </div>
-            <div class="h-[30vh] mt-[5rem] flex flex-col  justify-center
+            <div class="h-[30vh] mt-[4rem] flex flex-col  justify-center
              place-items-center text-center text-white  ">
                 <img src="/img/Vector(1).png" alt="" class="good fixed top-84">
                 <h1 class="text-3xl capitalize font-semibold ">You Have the <br> Power To</h1>
@@ -19,7 +19,7 @@
                         </div>
                 </div>
             </div>
-            <nuxt-link to="sign-in" class="absolute left-0 bottom-6 w-full px-3 mx-auto">
+            <nuxt-link to="sign-in" class="absolute left-0 bottom-5 w-full px-3 mx-auto">
                 <button class="w-full inline-block text-[14px]
                 p-[10px] bg-white text-black  border 
                 rounded-xl font-[600] capitalize">next</button>
