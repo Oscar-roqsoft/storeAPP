@@ -5,9 +5,9 @@
             <div  class="mx-auto">
                 <section class="px-[20px] pt-6 h-[44px] flex-shrink-0 
                 flex justify-between items-center">
-                    <nuxt-link to="home">
+                    <a @click="navigate">
                         <arrow class="text-xl bg-slate-200 p-2 border rounded-full w-8 h-8"/>
-                    </nuxt-link>
+                    </a>
                     <div>
                         <h1 class="text-lg">Sneaker Shop</h1>
                     </div>
@@ -85,3 +85,9 @@
             </div>
         </div>
 </template>
+
+<script setup>
+const navigate = ()=>{
+    return navigateTo('/home')
+}
+</script>

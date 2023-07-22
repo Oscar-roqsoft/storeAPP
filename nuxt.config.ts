@@ -6,7 +6,7 @@
 export default defineNuxtConfig ({
   // devtools: { enabled: true },
 
-
+ pages: true,
 
   experimental: {
     payloadExtraction: false
@@ -52,7 +52,7 @@ ssr: true,
 
     pageTransition:{
       name: 'page', 
-      mode: 'out-in'
+      mode: 'in-out'
     },
   }
 
