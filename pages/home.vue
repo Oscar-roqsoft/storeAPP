@@ -1,15 +1,3 @@
-<script setup>
-//   import 'animate.css'
-  const show = ref(false)
-  const isIcon = ref(true)
-  const showMenu = ()=>{
-    show.value = !show.value
-  }
-  const showIcon =()=>{
-    isIcon.value = !isIcon.value
-  }
- 
-</script>
 <template>
    <div class="">
         <transition name="slide-fade">
@@ -59,42 +47,29 @@
                         <span class="text-md capitalize">popular Shoes</span>
                         <nuxt-link to="details" class="text-sm text-[#0D6EFD]">see all</nuxt-link>
                     </div>
-                    <div class="grid grid-cols-2 gap-3 my-4 ">
-                        <div class="card bg-white rounded-xl">
-                            <heart-icon @click="showIcon"  v-if="isIcon"/>
-                            <heart-icon-red @click="showIcon"  v-else  />
-                            <div>
-                                <img src="/home-img/nike1.png" alt="">
-                                <img src="" alt=""> 
-                            </div>
-                            <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
-                            <span class="text-sm">Nike Jordan</span>
-                            <div class="flex justify-between items-center">
-                                <span class="text-sm">$302.00</span>
-                                <div class="bg-[#0D6EFD] w-[34px] text-white text-xl flex-shrink-0
-                                    h-[35.5px] flex items-center justify-center rounded-tl-3xl rounded-br-3xl">
-                                    <plus-icon />
+                    <div  class="grid grid-cols-2 gap-3 my-4 " >
+                       <div v-for="product in products" :key="product">
+                            <div class="card bg-white rounded-xl">
+                                <div @click ="showIcon" >
+                                    <heart-icon   v-if="isIcon"/>
+                                    <heart-icon-red  v-else  /> 
+                                </div>
+                               
+                                <div>
+                                    <img :src="product.img" alt="">
+                                </div>
+                                <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
+                                <span class="text-sm">{{ product.desc }}</span>
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm">{{ product.price }}</span>
+                                    <div class="bg-[#0D6EFD] w-[34px] text-white text-xl flex-shrink-0
+                                        h-[35.5px] flex items-center justify-center rounded-tl-3xl rounded-br-3xl">
+                                        <plus-icon />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="card bg-white rounded-xl">
-                            <heart-icon @click="showIcon"  v-if="isIcon"/>
-                            <heart-icon-red @click="showIcon"  v-else  />
-                            
-                            <div>
-                                <img src="/home-img/nike2.png" alt=""> 
-                            </div>
-                            <p class=" text-[#0D6EFD] text-xs">Best Seller</p>
-                            <span class="text-sm">Nike Air Jordan</span>
-                            <div class="flex justify-between items-center">
-                                <span class="text-sm">$378.00</span>
-                                <div class="bg-[#0D6EFD] w-[34px] text-white text-xl flex-shrink-0
-                                    h-[35.5px] flex items-center justify-center rounded-tl-3xl rounded-br-3xl">
-                                    <plus-icon />
-                                </div>
-                            </div>
-                        </div>
+                       </div>
+                       
                     </div>
                 </section>
 
@@ -124,6 +99,43 @@
    </div>
 </template>
 
+<script setup>
+
+const show = ref(false)
+const isIcon = ref(true)
+
+const showMenu = ()=>{
+        show.value = !show.value
+  }
+
+
+ 
+
+const products = [
+    {
+        id: 1,
+        img: "/home-img/nike1.png",
+        desc: 'Nike Jordan',
+        price: 320,
+    },
+    {
+        id: 2,
+        img: "/home-img/nike2.png",
+        desc: 'Nike Air Jordan ',
+        price: 220,
+    }
+]
+
+const showIcon =()=>{
+    products.forEach((prod)=>{
+        if (prod.id) {
+            isIcon.value = !isIcon.value
+        }
+    })
+
+}
+</script>
+
 
 <style scoped>
  .input{
@@ -141,9 +153,7 @@
     margin: 0px 10px;
  }
  .card{
-    display: flex;
     padding: 10px 0px 0px 10px;
-    flex-direction: column;
 }
 
 .summer{
