@@ -6,7 +6,30 @@
 
         <div v-for="image in homeImgs" :key="image" class="min-h-screen pb-40 w-screen bg-[#f7f7f9] font-sans">
            <div class="w-full mx-auto">
-               <navbar />
+                <nav class="fixed w-full mx-auto left-0 bottom-0  z-[1] ">
+                    <img src="/img/Vector1789.png" alt="" class="fixed left-0 bottom-0 z-[-1]">
+                    <div class=" flex justify-between items-center max-w-[375px] py-2 
+                    px-[20px] mx-auto h-[100px]  text-2xl">
+                        <nuxt-link to="home">
+                            <home-icon />
+                        </nuxt-link>
+                        <nuxt-link to="favourite">
+                            <heart-icon />
+                        </nuxt-link>
+                        <!-- <bag-icon /> -->
+                        <nuxt-link to="cart" class="bg-[#0D6EFD] relative bottom-7 w-[52px] text-white text-2xl font-bold
+                            h-[52px] flex items-center justify-center rounded-full  shadow">
+                            <bag-icon />
+                        </nuxt-link>
+                        <nuxt-link to="notification">
+                            <bell-icon/>
+                        </nuxt-link>
+                        
+                        <nuxt-link to="profile">
+                            <person-icon />
+                        </nuxt-link>
+                    </div>
+                </nav>
                 <section class="flex-shrink-0 
                 flex justify-between items-center px-[20px] pt-[16px]">
                     <hamburger @click="showMenu" class="text-xl font-bold" />
@@ -171,6 +194,9 @@ const showIcon =()=>{
     font-weight: 900;
     line-height: 36.717px;
     letter-spacing: -0.72px;
+}
+.shadow{
+    box-shadow: 0px 2px 5px 2px #0D6EFD;
 }
 
 .slide-fade-enter-active {
