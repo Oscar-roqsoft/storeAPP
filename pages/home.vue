@@ -4,19 +4,19 @@
                 <side-menu v-if="show"  @click="showMenu" class="fixed z-50 " />
         </transition>
 
-        <div  class="min-h-screen pb-40 w-screen bg-[#f7f7f9] font-sans">
+        <div v-for="image in homeImgs" :key="image" class="min-h-screen pb-40 w-screen bg-[#f7f7f9] font-sans">
            <div class="w-full mx-auto">
                <navbar />
                 <section class="flex-shrink-0 
                 flex justify-between items-center px-[20px] pt-[16px]">
                     <hamburger @click="showMenu" class="text-xl font-bold" />
                     <div>
-                        <img :src="homeImgs.image1" class="absolute  top-[10px] left-[30vw]">
+                        <img :src="image.image1" class="absolute  top-[10px] left-[30vw]">
                         <h1 class="text-xl">Explore</h1>
                     </div>
                     <div class="" >
-                        <img :src="homeImgs.image2" class="absolute animate-ping top-[24px] right-[21px]">
-                        <img :src="homeImgs.image3" >
+                        <img :src="image.image2" class="absolute animate-ping top-[24px] right-[21px]">
+                        <img :src="image.image3" >
                     </div>
                 </section>
 
@@ -87,9 +87,9 @@
                         </div>
 
                         <div class="flex place-items-center justify-center">
-                            <img :src="homeImgs.image4" class="relative top-[-17px] left-[45px]">
-                            <img :src="homeImgs.image5"  class="relative top-[-24px] left-[29px]" >
-                            <img :src="homeImgs.image6"  class="relative top-[28px] right-[77px]">
+                            <img :src="image.image4" class="relative top-[-17px] left-[45px]">
+                            <img :src="image.image5"  class="relative top-[-24px] left-[29px]" >
+                            <img :src="image.image6"  class="relative top-[28px] right-[77px]">
                         </div>
                     </div>
                 </section>
