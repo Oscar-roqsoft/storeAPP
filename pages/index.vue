@@ -51,18 +51,7 @@
                         <span  :class="count === 1?'w-10 h-1 bg-white rounded shadow-xl transition-all ease-linear' :'w-7 h-1 bg-[#FFB21A] rounded '"></span>
                         <span  :class="count === 2?'w-10 h-1 bg-white rounded shadow-xl transition-all ease-linear'  :'w-7 h-1 bg-[#FFB21A] rounded '"></span>
                     </div>
-                    <!-- <div v-if ="count === 1" class="flex justify-center place-items-center gap-3 
-                         animate__animated animate__fadeIn">
-                        <span class="w-10 h-1 bg-white rounded shadow-lg"></span>
-                        <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
-                        <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
-                    </div>
-                    <div  v-if="count === 2"  class="flex justify-center place-items-center gap-3 
-                         animate__animated animate__fadeIn">
-                        <span class="w-10 h-1 bg-white rounded shadow-lg"></span>
-                        <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
-                        <span class="w-7 h-1 bg-[#FFB21A] rounded"></span>
-                    </div> -->
+                  
             </div>
             <div @click="currentslide" class="fixed w-full top-[38rem] px-4">
                 <button v-show= "count === 0"  class="w-full inline-block text-[14px] font-[700]
@@ -80,15 +69,15 @@
 </template>
 
 <script setup>
-const isloading = ref(true)
+// const isloading = ref(true)
 
 const dots =[
  {id:1},
 ]
 
-onMounted(() => {
-     setTimeout(() => isloading.value = false, 3000)  //for page loader
-    })
+// onMounted(() => {
+//      setTimeout(() => isloading.value = false, 3000)  //for page loader
+//     })
 
 
 const items = [
