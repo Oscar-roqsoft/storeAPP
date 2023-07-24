@@ -131,7 +131,7 @@ const items = [
 ]
 const count = ref(0)
 
- const currentslide = (n)=>{
+ const currentslide = ()=>{
    count.value++
     if(count.value === (items.length )){
     return navigateTo('/sign-in')

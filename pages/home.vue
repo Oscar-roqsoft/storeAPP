@@ -111,6 +111,7 @@ const showMenu = ()=>{
 
  
 const homeImgs=[{
+    id:1,
    image1:"/img/Highlight_05.png" ,
    image2: "/home-img/Ellipse886.png",
    image3:"/home-img/Frame31.png",
