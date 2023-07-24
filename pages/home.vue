@@ -7,7 +7,7 @@
         <div v-for="image in homeImgs" :key="image" class="min-h-screen pb-40 w-screen bg-[#f7f7f9] font-sans">
            <div class="w-full mx-auto">
                 <nav class="fixed w-full mx-auto left-0 bottom-0  z-[1] ">
-                    <img src="/img/Vector1789.png" alt="" class="fixed left-0 bottom-0 z-[-1]">
+                    <img :src="image.image" alt="" class="fixed left-0 bottom-0 z-[-1]">
                     <div class=" flex justify-between items-center max-w-[375px] py-2 
                     px-[20px] mx-auto h-[100px]  text-2xl">
                         <nuxt-link to="home">
@@ -135,6 +135,7 @@ const showMenu = ()=>{
  
 const homeImgs=[{
     id:1,
+   image: "/img/Vector1789.png",
    image1:"/img/Highlight_05.png" ,
    image2: "/home-img/Ellipse886.png",
    image3:"/home-img/Frame31.png",
