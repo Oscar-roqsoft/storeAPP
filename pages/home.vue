@@ -11,12 +11,12 @@
                 flex justify-between items-center px-[20px] pt-[16px]">
                     <hamburger @click="showMenu" class="text-xl font-bold" />
                     <div>
-                        <img src="/img/Highlight_05.png" class="absolute  top-[10px] left-[30vw]">
+                        <img :src="homeImgs.image1" class="absolute  top-[10px] left-[30vw]">
                         <h1 class="text-xl">Explore</h1>
                     </div>
                     <div class="" >
-                        <img src="/home-img/Ellipse886.png" class="absolute animate-ping top-[24px] right-[21px]">
-                        <img src="/home-img/Frame31.png" >
+                        <img :src="homeImgs.image2" class="absolute animate-ping top-[24px] right-[21px]">
+                        <img :src="homeImgs.image3" >
                     </div>
                 </section>
 
@@ -87,9 +87,9 @@
                         </div>
 
                         <div class="flex place-items-center justify-center">
-                            <img src="/home-img/Misc_06.png" class="relative top-[-17px] left-[45px]">
-                            <img src="/home-img/Nike-Zoom.png"  class="relative top-[-24px] left-[29px]" >
-                            <img src="/home-img/Ellipse3.png"  class="relative top-[28px] right-[77px]">
+                            <img :src="homeImgs.image4" class="relative top-[-17px] left-[45px]">
+                            <img :src="homeImgs.image5"  class="relative top-[-24px] left-[29px]" >
+                            <img :src="homeImgs.image6"  class="relative top-[28px] right-[77px]">
                         </div>
                     </div>
                 </section>
@@ -110,6 +110,14 @@ const showMenu = ()=>{
 
 
  
+const homeImgs=[{
+   image1:"/img/Highlight_05.png" ,
+   image2: "/home-img/Ellipse886.png",
+   image3:"/home-img/Frame31.png",
+   image4: "/home-img/Misc_06.png",
+   image5: "/home-img/Nike-Zoom.png",
+   image6: "/home-img/Ellipse3.png"
+}]
 
 const products = [
     {
